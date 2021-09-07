@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font-family: sans-serif;
+	background-color: #3366FF;
+}
+.boxoutput {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.hasil {
+	width: 300px;
+	height: auto;
+	background-color: #f0f0f0;
+	margin: 10px 20px;
+	border-radius: 3px;
+	overflow-x: hidden;
+}
+.hasil h2 {
+	text-align: center;
+	font-size: 50px;
+}
+.box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputNomer {
+	width: 300px;
+	height: 300px;
+	background-color: #f0f0f0;
+	margin: 0 20px;
+	border-radius: 3px;
+}
+.inputNomer input {
+	display: block;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+	border: 1px solid grey;
+	border-radius: 3px;
+
+}
+.
+.inputItem2 {
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: auto;
+	background-color: red;
+}
+.inputItem2 select {
+	padding: 10px;
+	display: block;
+	margin: auto;
+	width: 55%;
+}
+.inputItem4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.inputItem4 button {
+	margin: 0 20px;
+	padding: 10px 24px;
+}
+.boxAlert {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	background-color: rgba(0, 0, 0,0.3);
+	position: fixed;
+	z-index: 99999;
+	top: 0;
+	display: none;
+}
+.boxAlert .titleAlert {
+	width: 350px;
+	height: 80px;
+	padding: 10px 0;
+	background-color: #f0f0f0;
+	text-align: center;
+	border-radius: 3px;
+	margin: 10px 20px;
+	animation: animaAlert .6s forwards;
+}
+@keyframes animaAlert {
+	0% {
+		margin-top: 10px;
+	}
+	50% {
+		margin-top: 20px;
+	}
+}
+.titleAlert h5 {
+	margin: 10px 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+.titleAlert button {
+	padding: 10px 15px;
+	border: none;
+	background-color: #3366FF;
+	font-size: 18px;
+	color: #fff;
+	cursor: pointer;
+}

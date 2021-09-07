@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Karya13 | Kalkulator Sederhana | ZA</title>
+</head>
+<body>
+	<div class="boxAlert">
+		<div class="titleAlert">
+			<h5>Anda Belum Mengisi</h5>
+			<button onclick="tutup()">X</button>
+		</div>
+	</div>
+	<div class="boxoutput">
+		<div class="hasil">
+			<h2 id="hasill">0</h2>
+		</div>
+	</div>
+	<div class="box">
+		<div class="inputNomer">
+			<div class="inputItem1">
+				<input type="text" name="text" id="Bilangan1">
+			</div>
+			<div class="inputItem2">
+				<select id="Item">
+	                <option>+</option>
+	                <option>-</option>
+	                <option>/</option>
+	                <option>*</option>
+	            </select>
+			</div>
+			<div class="inputItem3">
+				<input type="text" name="text" id="Bilangan2">
+			</div>
+			<div class="inputItem4">
+				<button type="submit" id="submit">=</button>
+				<button type="submit" id="clear">C</button>
+			</div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
